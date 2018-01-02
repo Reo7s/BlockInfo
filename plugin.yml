@@ -1,0 +1,13 @@
+name: BlockInfo
+main: BlockInfo\BlockInfo
+version: 6
+api: [1.13.0]
+load: POSTWORLD
+author: Reo7s
+commands:
+ bi:
+  description: "誰がブロックを置いたか確認できます。"
+  permission: "bi.command"
+ permissions:
+  bi.command:
+   default: op
